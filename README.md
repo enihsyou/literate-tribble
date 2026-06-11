@@ -1,17 +1,22 @@
 # literate-tribble
 
-A test repository for validating GitHub App commit workflows.
-
-## Purpose
-
-This repo serves as a sandbox for testing AI-assisted development workflows where commits are made under a GitHub App identity.
+Experimental repository for testing GitHub App commit workflows.
 
 ## Commit Convention
 
-When AI is the primary author:
-- **Author**: Hermes Agent (`1558198+tokenless-gist[bot]@users.noreply.github.com`)
-- **Co-Authored-By**: 九条涼果 `<enihsyou@gmail.com>`
+This repository uses the **Arapacati** GitHub App for automated commits.
 
-When the human is the primary author:
-- **Author**: 九条涼果 `<enihsyou@gmail.com>`
-- **Co-Authored-By**: Hermes Agent (`1558198+tokenless-gist[bot]@users.noreply.github.com`)
+### Author Attribution Rules
+
+| Scenario | Author | Co-Authored-By |
+|----------|--------|----------------|
+| Code entirely written by AI | `Hermes Agent <219979485+arapacati[bot]@users.noreply.github.com>` | `九条涼果 <enihsyou@gmail.com>` |
+| Code entirely written by Claude Code | `Claude Code <219979485+arapacati[bot]@users.noreply.github.com>` | `九条涼果 <enihsyou@gmail.com>` |
+| Code entirely written by other AI Agent | `<Agent Name> <219979485+arapacati[bot]@users.noreply.github.com>` | `九条涼果 <enihsyou@gmail.com>` |
+| Code partially written by human | `九条涼果 <enihsyou@gmail.com>` | `Hermes Agent <219979485+arapacati[bot]@users.noreply.github.com>` |
+
+### Notes
+
+- All commits are signed by the GitHub App `arapacati`
+- The `Co-Authored-By` trailer properly attributes contributions
+- GitHub links co-authored commits to both the app and the human contributor
