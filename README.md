@@ -10,10 +10,10 @@ This repository uses the **Arapacati** GitHub App for automated commits.
 
 | Scenario | Author | Co-Authored-By |
 |----------|--------|----------------|
-| Code entirely written by AI | `Hermes Agent <219979485+arapacati[bot]@users.noreply.github.com>` | `九条涼果 <enihsyou@gmail.com>` |
-| Code entirely written by Claude Code | `Claude Code <219979485+arapacati[bot]@users.noreply.github.com>` | `九条涼果 <enihsyou@gmail.com>` |
-| Code entirely written by other AI Agent | `<Agent Name> <219979485+arapacati[bot]@users.noreply.github.com>` | `九条涼果 <enihsyou@gmail.com>` |
-| Code partially written by human | `九条涼果 <enihsyou@gmail.com>` | `Hermes Agent <219979485+arapacati[bot]@users.noreply.github.com>` |
+| Code entirely written by AI | `Hermes Agent <292837902+arapacati[bot]@users.noreply.github.com>` | `九条涼果 <enihsyou@gmail.com>` |
+| Code entirely written by Claude Code | `Claude Code <292837902+arapacati[bot]@users.noreply.github.com>` | `九条涼果 <enihsyou@gmail.com>` |
+| Code entirely written by other AI Agent | `<Agent Name> <292837902+arapacati[bot]@users.noreply.github.com>` | `九条涼果 <enihsyou@gmail.com>` |
+| Code partially written by human | `九条涼果 <enihsyou@gmail.com>` | `Hermes Agent <292837902+arapacati[bot]@users.noreply.github.com>` |
 
 ### Notes
 
